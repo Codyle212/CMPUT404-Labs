@@ -1,0 +1,11 @@
+0.https://github.com/Codyle212/cmput404lab7
+1.Django is more of a full-stack framework that can handle backend and serve frontend, Where as Flask is a framework for generating api endpoints.
+Django has templates that can be used render data models directly to the frontend
+2.Representational state transfer, Restful means that it follows the rest conventions. 
+The characteristics of restful are client-server separation,stateless communication,cachable data,uniform interface between components,layered system that organizes each type of server and Code-on-demand
+3.CRUD are Create,Read,Update,Delete which correspond to POST(C),GET(R),PUT(U) and DELETE(D) HTTP methods
+4. HTTP 1XX are for continuing the connection, HTTP 2XX are for request being OK , HTTP 3XX are for Redirecting
+   HTTP 4XX are for Bad Request on Client Side , HTTP 5XX are for Server Side Errors
+5.XSS are hacker trying to run malicious script inside other's broswer. Then the malicious script can be used to get sensitive infomation and change the html of the victim.
+XSS attack can happen when the hacker injects a script tag into a input field which is runned by victim's broswer when he/she tries to retrive the infomation and the web-broswer thinks it is coming from a trusted source.
+6.Cross Origin Resource Sharing. It should be implemented when you only want specific domain to access the resource on your backend(API endpoints). You do that by whitelisting the domain you want to give access to on the server side.

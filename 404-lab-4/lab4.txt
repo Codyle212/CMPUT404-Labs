@@ -1,0 +1,8 @@
+1. https://github.com/Codyle212/404-lab-4-shining
+2. A page showing "The install worked successfully! Congratulations!" and linkes to other resources
+3. / shows a 404 not found page, /polls shows a page with html 
+4. migration is stored changes to our model. it is used to propagate changes we make to your models into the database
+5. a page showing different models with user and group in "AUTHENTICATION AND AUTHORIZATION" catagory and Choice and Question in "POLLS". To get them to show on admin page, you have to click on add and manually input the model name (i.e Questions) and click on save
+6. /polls/38 gives "You're looking at question 38.". /polls/38/results gives "You're looking at the results of question 38.". /polls/38/vote gives "You're voting on question 38." Using a stirng to replace 38 will gives a 404 Not found page. To allow String to be passed in as parameter, remove <int:> before the questionId 
+7. It becomes diffcult to change the urls with lots of templates , by using %url, the url is handled by urls.py
+8. Using generic views gives us with some of the feature such as listview and detailview. We should use generic views we have a display pattern that is similar to the display pattern generic views. However, if we have a complex logic for displaying, we should not be using generic views, instead we should use functions to render them.

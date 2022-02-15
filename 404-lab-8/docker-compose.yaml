@@ -1,0 +1,9 @@
+services:
+  npm: 
+    image: node:14
+    working_dir: /app
+    entrypoint: ['npm']
+    volumes: 
+      - .:/app
+    ports:
+      - '8000:8000'

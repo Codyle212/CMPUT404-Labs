@@ -1,0 +1,2 @@
+1. Static Site Generator can easily create functional site with template files. The con of static site generator is limited customization and hard to make minor style changes.
+2.https://codyle212.github.io/

@@ -1,0 +1,9 @@
+1. A Rabbit when clicked/draged turns to red, When draging the Rabbit in another window, the position of the Rabbit also moves in the first window
+2. TS is object oriented language where as JS is scripting language, TS also supports modules and static typing 
+3. Web application bundler helps with bundling all js modules and dependencies into a single file, loads asset in order
+  Parcel.JS provides features like Zero config,Hot reloading,Diagnostics,Transpiling and Differential bundling to avoid name conflicts.
+4.CONNECTING - Socket has been created. The connection is not yet open.
+  OPEN - The connection is open and ready to communicate.
+  CLOSING - The connection is in the process of closing.
+  CLOSED - The connection is closed or couldn't be opened.
+5.https://github.com/Codyle212/nodejs-ws-lab

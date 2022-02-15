@@ -1,0 +1,6 @@
+1. Through Heroku Git(using Heroku CLI), or Github or Container Registery(Using Heroku CLI)
+2. Procfile specifies the command need to be run before the start fo the application
+3.https://cmput404-lab6-codyle212.herokuapp.com/
+Django Admin Page
+username:admin
+password:herokupass

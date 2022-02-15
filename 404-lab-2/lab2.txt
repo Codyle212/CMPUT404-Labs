@@ -1,0 +1,7 @@
+1.by assigning <socket.socket(socket.AF_INET, socket.SOCK_STREAM)> to a variable
+2.server will require to specify port to listen and emit event, where as client does not require a port
+  client is the one that starts the connection
+3.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1), this line will allow the address to be reused
+4.we get the host and port of the remote address
+5.recv() function returns utf-8 encoded data
+6.https://github.com/Codyle212/404-lab-2-shining

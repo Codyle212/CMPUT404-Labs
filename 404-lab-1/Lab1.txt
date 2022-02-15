@@ -1,0 +1,8 @@
+1.https://github.com/Codyle212
+2. request version is 2.22.0
+3. request version is 2.27.1
+4. venv has a new version of requests than the no virtual version of requests
+5. 301 move permanently, http://www.google.com/
+6. 418 I'm a Teapot
+7.Curl -i return a response code whereas -X POST only return the content without headers whihc can be used to get the source code
+8.https://raw.githubusercontent.com/Codyle212/404-lab-1-shining/main/lab1.py

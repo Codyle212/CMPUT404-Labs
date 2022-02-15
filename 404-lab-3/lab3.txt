@@ -1,0 +1,8 @@
+1.by accessing os.environ using the cgi server 
+2.query parameters is contained in os.environ['QUERY_STRING']
+3.by accessing attributes of os.environ i.e. os.environ['browser_info'], browser_info is the key to the object which will return a value.
+4.temporarily stored in cgi.FieldStorage()
+5.Set-Cookie: key={value}, in python #print(f"Set-Cookie: username={username}") which will be a POST request
+6.Cookie: key1={value1};key2={value2} , in python #cookie.get("key").value this will be a GET request
+7.cookies are used to store user information previously entered by a user
+8.https://github.com/Codyle212/cgi-lab
